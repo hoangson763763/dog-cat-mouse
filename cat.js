@@ -1,3 +1,6 @@
+//working directory --
+//staging area -- 
+//git repository--
 //git init --khoi tao
 //git status --kiem tra trang thai
 //git add	--them
