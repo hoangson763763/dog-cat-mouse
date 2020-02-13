@@ -1,0 +1,30 @@
+[33mcommit 35ebcfdb820d3d2096883695d4e37a0b452d658c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: hoangson763763 <hoangson763763@gmail.com>
+Date:   Thu Feb 13 10:23:54 2020 +0700
+
+    cat eat mouse
+
+[1mdiff --git a/cat.js b/cat.js[m
+[1mindex be21c67..b52f9a5 100644[m
+[1m--- a/cat.js[m
+[1m+++ b/cat.js[m
+[36m@@ -1,3 +1,14 @@[m
+[31m-function Cat(){[m
+[31m-	[m
+[31m-}[m
+\ No newline at end of file[m
+[32m+[m[32mfunction Cat(name){[m
+[32m+[m	[32mthis.name = name;[m
+[32m+[m	[32mthis.stomach = [];[m
+[32m+[m[32m}[m
+[32m+[m[32mCat.prototype.eat = function(mouse){[m
+[32m+[m	[32mthis.stomach.push(mouse);[m
+[32m+[m[32m}[m
+[32m+[m[32mfunction Mouse(name){[m
+[32m+[m	[32mthis.name = name[m
+[32m+[m[32m}[m
+[32m+[m[32mcat = new Cat('Tom');[m
+[32m+[m[32mmouse = new Mouse('jerry')[m
+[32m+[m[32mcat.eat(mouse);[m
+[32m+[m[32mconsole.log(cat);[m
+\ No newline at end of file[m

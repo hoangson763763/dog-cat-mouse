@@ -1,3 +1,10 @@
+//git init --khoi tao
+//git status --kiem tra trang thai
+//git add	--them
+//git commit -m --commit
+//git log --kiem tra lich su da commit
+//git show
+//git diff --different
 function Cat(name){
 	this.name = name;
 	this.stomach = [];
