@@ -10,10 +10,14 @@
 //git diff --different
 //git checkout --loại những file đã bị sửa ra
 //git reset --quay lại
+//git restore --staged <file> loại bỏ 1 file ra ngoài
 //git checkout -b <branch> (branchinh)
 //git checkout <branch>
 //git merge A <------ B : git checkout master ==> git merge B
-//git reset --hủy commit đã tạo
+//git reset --sofr <commit> hủy commit đã tạo đưa về trạng thái đã add,những commit trước sẽ mất đi
+//git reset --mixed <commit> hủy commit đã tạo đưa về trạng thái chưa add
+//git reset --hard <commit> xóa hẳn commit
+//git revert <commit>
 let Mouse = require('./mouse.js');
 
 function Cat(name){
