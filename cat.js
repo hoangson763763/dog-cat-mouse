@@ -18,6 +18,7 @@
 //git reset --mixed <commit> hủy commit đã tạo đưa về trạng thái chưa add
 //git reset --hard <commit> xóa hẳn commit
 //git revert <commit>
+//git remote add origin <link>
 let Mouse = require('./mouse.js');
 
 function Cat(name){
