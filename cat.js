@@ -23,17 +23,22 @@
 //git push origin <branch> push nhánh lên githud
 //git clone <link repo>
 //git pull
-let Mouse = require('./mouse.js');
+let Mouse = require('./Mouse');
 
 function Cat(name){
 	this.name = name;
 	this.stomach = [];
 }
-Cat.prototype.eat = function(mouse){
-	this.stomach.push(mouse);
-}
-console.log(Mouse)
-cat = new Cat('Tom');
-mouse = new Mouse('jerry')
-cat.eat(mouse);
-console.log(cat);
+Cat.prototype.eat = function(animal){
+	if(animal instanceof Mouse)
+	{
+		animal.dead = true;
+		this.stomach.push(animal);
+
+	}
+	else
+	{
+		throw new Error('Cat can only mouse eat');
+	}
+};
+module.exports = Cat;
