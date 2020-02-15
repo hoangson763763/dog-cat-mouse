@@ -11,7 +11,7 @@
 //git checkout --loại những file đã bị sửa ra
 //git reset --quay lại
 //git restore --staged <file> loại bỏ 1 file ra ngoài
-//git checkout -b <branch> (branchinh)
+//git checkout -b <branch> (branchinh) tao 1 nhanh' (branch)
 //git checkout <branch>
 //git merge A <------ B : git checkout master ==> git merge B
 //git reset --sofr <commit> hủy commit đã tạo đưa về trạng thái đã add,những commit trước sẽ mất đi
@@ -19,6 +19,10 @@
 //git reset --hard <commit> xóa hẳn commit
 //git revert <commit>
 //git remote add origin <link>
+//git push origin master --push code lên githud nhánh(branch) master
+//git push origin <branch> push nhánh lên githud
+//git clone <link repo>
+//git pull
 let Mouse = require('./mouse.js');
 
 function Cat(name){
